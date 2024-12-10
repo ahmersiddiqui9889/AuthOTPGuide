@@ -1,9 +1,11 @@
 `npm create vite@latest frontend`
 
 `cd frontend`
+
 `npm install`
 
 `npm install -D tailwindcss postcss autoprefixer postcss react-router-dom axios`
+
 `npx tailwindcss init -p`
 
 
@@ -308,8 +310,11 @@ export default Signup;
 ### Open a new terminal
 
 `mkdir backend`
+
 `cd backend`
+
 `npm init -y` 
+
 `npm install express cors body-parser nodemailer mongoose bcrypt jsonwebtoken dotenv nodemon`
 
 
