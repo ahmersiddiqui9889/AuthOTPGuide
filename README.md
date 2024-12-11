@@ -469,28 +469,30 @@ Now you need to get your private password from google.
 ### 1. goto [myaccount.google.com](https://myaccount.google.com)
 
 
-### 2. search for 2 step verification
 ![ss1](./ss1.png)
-
-
+### 2. search for 2 step verification
 ### 3. type password
-### 4. turn on 2 step verification
+
+
 ![ss2](./ss2.png)
+### 4. turn on 2 step verification
 
 
-### 5. then go back
 ![ss3](./ss3.png)
+### 5. then go back
 
 
-### 6. search for app password and open it
 ![ss4](./ss4.png)
+### 6. search for app password and open it
 
 
-### 7. Type EmailOTPAuth
 ![ss5](./ss5.png)
+### 7. Type EmailOTPAuth
 
-### 8. Now, copy the text, this is your password
+
 ![ss6](./ss6.png)
+### 8. Now, copy the text, this is your password
+
 
 
 ### paste this in .env file as EMAIL and PASSWORD
