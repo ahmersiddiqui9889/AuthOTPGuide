@@ -338,8 +338,8 @@ export default App;
 
 ### download and paste logobr.png in src/assets
 
-[![logobr.png](./logobr.png)](blob:https://github.com/7c1c9651-e0b7-4434-87fc-09a55cc08673)
-
+![logobr.png](./logobr.png)
+logobr.png
 
 
 
@@ -349,9 +349,13 @@ export default App;
 ---
 
 ### Open new terminal
+
 `mkdir backend`
+
 `cd backend`
+
 `npm init -y`
+
 `npm install express cors body-parser nodemailer mongoose bcrypt jsonwebtoken dotenv nodemon`
 
 
