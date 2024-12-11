@@ -1,15 +1,21 @@
 ### setup new project in vscode
 
-```npm create vite@latest frontend```
-```cd frontend```
-```npm install```
-```npm install postcss autoprefixer react-router-dom axios```
-```npm install -D tailwindcss```
-```npx tailwindcss init -p```
+`npm create vite@latest frontend`
+
+`cd frontend`
+
+`npm install`
+
+`npm install postcss autoprefixer react-router-dom axios`
+
+`npm install -D tailwindcss`
+
+`npx tailwindcss init -p`
 
 
 ### paste this in tailwind.config.js
-```/** @type {import('tailwindcss').Config} */
+```
+/** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -31,7 +37,8 @@ export default {
 
 
 ### paste this in src/index.css
-```@tailwind base;
+```
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
@@ -40,7 +47,8 @@ export default {
 ### create Pages folder in src
 ### create Dashboard.jsx in Pages
 ### paste this in Dashboard.jsx
-```import { useNavigate } from "react-router-dom"; // Assuming you're using React Router
+```
+import { useNavigate } from "react-router-dom"; // Assuming you're using React Router
 import { useState, useEffect } from "react";
 
 const Dashboard = () => {
@@ -118,7 +126,8 @@ export default Dashboard;
 
 ### create Signup.jsx in Dashboard/Pages
 ### paste this in Signup.jsx
-```import { useState } from "react";
+```
+import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom"; // Assuming you are using react-router for navigation.
 
@@ -140,8 +149,8 @@ const Signup = () => {
 
   const verifyOtp = async () => {
     try {
-      const response = await axios.post("http://localhost:5000/verify-otp", { email, otp });
-      alert(response.data.message);
+       await axios.post("http://localhost:5000/verify-otp", { email, otp });
+      alert("Email-Verified-Suucesfully");
       navigate("/dashboard"); // Redirect to a new page (e.g., Welcome page) after verification.
     } catch (error) {
       alert(error.response?.data?.message || "Error verifying OTP");
@@ -218,7 +227,8 @@ export default Signup;
 
 ### create Login.jsx in Pages
 ### paste this in login.jsx
-```import { useState } from "react";
+```
+import { useState } from "react";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -296,7 +306,8 @@ export default Login;
 
 
 ### paste this in App.jsx
-```// import React from "react";
+```
+// import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Signup from "./Pages/Signup";
 import Login from "./Pages/Login";
@@ -336,10 +347,10 @@ export default App;
 ---
 
 ### Open new terminal
-```mkdir backend```
-```cd backend```
-```npm init -y```
-```npm install express cors body-parser nodemailer mongoose bcrypt jsonwebtoken dotenv nodemon```
+`mkdir backend`
+`cd backend`
+`npm init -y`
+`npm install express cors body-parser nodemailer mongoose bcrypt jsonwebtoken dotenv nodemon`
 
 
 
