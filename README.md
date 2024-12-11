@@ -466,7 +466,7 @@ app.listen(PORT, () => {
 Now you need to get your private password from google.
 
 ## For EMAIL and PASSWORD
-### 1. goto myaccount.google.com
+### 1. goto [myaccount.google.com](https://myaccount.google.com)
 ### 2. click on security tab on left hand side
 ### 3. search for 2 step verification
 ### 4. type password
