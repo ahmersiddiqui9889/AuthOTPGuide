@@ -1,6 +1,8 @@
 ### setup new project in vscode
 
 `npm create vite@latest frontend`
+choose React
+then choose Javascript
 
 `cd frontend`
 
