@@ -337,6 +337,7 @@ export default App;
 
 
 ### download and paste logobr.png in src/assets
+[logobr.png]("./logobr.png")
 
 
 
