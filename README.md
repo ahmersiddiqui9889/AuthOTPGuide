@@ -344,7 +344,7 @@ export default App;
 logobr.png
 
 
-
+`npm run dev`
 
 ## frontend completed
 
