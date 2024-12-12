@@ -8,9 +8,9 @@ then choose Javascript
 
 `npm install`
 
-`npm install postcss autoprefixer react-router-dom axios`
+`npm install react-router-dom axios`
 
-`npm install -D tailwindcss`
+`npm install -D tailwindcss postcss autoprefixer`
 
 `npx tailwindcss init -p`
 
