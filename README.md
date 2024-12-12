@@ -485,13 +485,16 @@ app.listen(PORT, () => {
 
 ### create a file named .env
 ### paste EMAIL and PASSWORD
+you will learn how to get email and password in next section
+
+`nodemon server.js`
 
 
 ## DONE 🙂
 
 ---
 
-Now you need to get your private password from google.
+Now to get your own private password from google follow this for EMAIL and PASSWORD for .env file
 
 ## For EMAIL and PASSWORD
 ### 1. goto [myaccount.google.com](https://myaccount.google.com)
