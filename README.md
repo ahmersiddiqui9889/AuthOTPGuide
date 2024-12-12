@@ -332,6 +332,8 @@ const App = () => {
 export default App;
 ```
 
+
+### Create Continue.jsx in Pages
 ### Paste this in Continue.jsx
 ```
 import circularLogo from '../assets/logobr.png';
