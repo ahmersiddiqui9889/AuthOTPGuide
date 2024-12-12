@@ -531,4 +531,5 @@ Now to get your own private password from google follow this for EMAIL and PASSW
 it should look like this -
 ```
 EMAIL = <your email here>
-PASSWORD = <your password here>```
+PASSWORD = <your password here>
+```
